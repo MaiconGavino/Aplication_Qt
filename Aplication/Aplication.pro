@@ -16,13 +16,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    fm_principal.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    fm_principal.h \
     mainwindow.h
 
 FORMS += \
+    fm_principal.ui \
     mainwindow.ui
 
 RC_ICONS = iconeAplication.ico
