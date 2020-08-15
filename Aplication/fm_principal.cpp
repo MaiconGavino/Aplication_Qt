@@ -13,6 +13,7 @@ fm_principal::fm_principal(QWidget *parent) :
     ui(new Ui::fm_principal)
 {
     ui->setupUi(this);
+    setWindowTitle("Sistema de Controle");
 }
 
 fm_principal::~fm_principal()
